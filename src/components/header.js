@@ -4,6 +4,7 @@ import React from "react"
 import Menu from "./menu"
 
 
+
 const Header = ({ siteTitle, menuLinks}) => (
   
   <header
@@ -23,7 +24,7 @@ const Header = ({ siteTitle, menuLinks}) => (
         
       }}
     >
-     <Menu noOverlay />
+    
       <h4 style={{ margin: 0 }}>
         <Link
           to="/"
@@ -34,13 +35,19 @@ const Header = ({ siteTitle, menuLinks}) => (
         >
           {siteTitle}
         </Link>
-        
-        <Link><h4 style={{textAlign: 'right'}}>Menu</h4></Link>
-        {/* <Menu pageWrapId={"page-wrap"}/>  */}
-
        
-      </h4>
+        {/* <Link><h4 style={{textAlign: 'right'}}>Menu</h4></Link>  */}
       
+        {/* <Menu pageWrapId={"page-wrap"} */}
+        
+       
+        </h4> 
+      
+      <div id="App">
+      <Menu />
+
+      <div id="page-wrap"></div>
+      </div>
     </div>
 
    
