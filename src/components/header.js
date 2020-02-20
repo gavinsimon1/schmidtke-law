@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Menu from "./menu"
+import logoWhite from "/Users/gavin/Desktop/schmidtke law/src/images/logo-white.png" 
 
 
 
@@ -33,7 +34,9 @@ const Header = ({ siteTitle, menuLinks}) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {/* {siteTitle} */}
+          {/* <img src={logoWhite} alt="Schmidtke Law Hawaii Family Law" /> */}
+          
         </Link>
        
         {/* <Link><h4 style={{textAlign: 'right'}}>Menu</h4></Link>  */}
@@ -53,15 +56,15 @@ const Header = ({ siteTitle, menuLinks}) => (
    
     
      <div  id="nav-desktop">
-     <Link to="/" style={{textAlign: "left" ,color: "white", margin: "30px", paddingTop: "50px"}}>{siteTitle}</Link>
+     {/* <Link to="/" style={{textAlign: "left" ,color: "white", margin: "30px", paddingTop: "50px"}}>{siteTitle}</Link> */}
      
           <nav>
-          
+          <Link to="/"><img style={{padding: "10px", height: "50px", display: "flex", justifyContent: "left"}} src={logoWhite} alt="Schmidtke Law Hawaii Family Law" /></Link>
             <ul style={{ display: "flex", flex: 1, justifyContent: "flex-end" }}>
            
             
               {menuLinks.map(link => (
-                <li
+                <li 
                   key={link.name}
                   style={{
                     listStyleType: `none`,

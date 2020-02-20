@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
   return (
     <>
       
-      <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} /> 
+      <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title}  /> 
       <div
         style={{
           margin: `0 auto`,
