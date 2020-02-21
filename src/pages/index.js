@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 //import Image from "../components/image"
 import SEO from "../components/seo"
-// import logoWhite from "../src/images/logo-white.png" 
+import logoWhite from "../logo-white.png" 
 
 
 
@@ -15,8 +15,8 @@ const IndexPage = () => (
   
     <SEO title="Home" />
     { <div>
-  
-    {/* <img src={logoWhite} alt="Schmidtke Law Hawaii Family Law" /> */}
+     
+    <img src={logoWhite} alt="Schmidtke Law Hawaii Family Law" />
     <h2 class="headline">A LAW CORPORATION</h2>
     <h4 class="headline"><a href="tel:8085994100">(808) 599-4100</a></h4>  
     </div> }

@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Menu from "./menu"
-// import logoWhite from "../src/images/logo-white.png" 
+import logoWhite from "../logo-white.png" 
 
 
 
@@ -40,7 +40,9 @@ const Header = ({ siteTitle, menuLinks}) => (
           }}
         >
           {/* {siteTitle} */}
-          {/* <img src={logoWhite} alt="Schmidtke Law Hawaii Family Law" /> */}
+         <img src={logoWhite} alt="Schmidtke Law Hawaii Family Law" /> 
+         
+          
           
         </Link>
        
