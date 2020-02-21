@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Menu from "./menu"
-import logoWhite from "../src/images/logo-white.png" 
+// import logoWhite from "../src/images/logo-white.png" 
 
 
 
@@ -60,7 +60,7 @@ const Header = ({ siteTitle, menuLinks}) => (
      {/* <Link to="/" style={{textAlign: "left" ,color: "white", margin: "30px", paddingTop: "50px"}}>{siteTitle}</Link> */}
      
           <nav>
-          <Link to="/"><img style={{padding: "10px", height: "50px", display: "flex", justifyContent: "left"}} src={logoWhite} alt="Schmidtke Law Hawaii Family Law" /></Link>
+          {/* <Link to="/"><img style={{padding: "10px", height: "50px", display: "flex", justifyContent: "left"}} src={logoWhite} alt="Schmidtke Law Hawaii Family Law" /></Link> */}
             <ul style={{ display: "flex", flex: 1, justifyContent: "flex-end" }}>
            
             
