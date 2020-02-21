@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 5.0875rem 5rem`,
+          padding: `0 5.0875rem 20rem`,
         }}
       >
         <main>{children}</main>
@@ -45,8 +45,9 @@ const Layout = ({ children }) => {
           {/* , Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a> */}
+          
         </footer>
-      </div>
+        </div>
     </>
   )
 }
