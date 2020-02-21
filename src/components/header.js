@@ -16,6 +16,11 @@ const Header = ({ siteTitle, menuLinks}) => (
     }}
     
   >
+          <div id="App">
+      <Menu />
+
+      <div id="page-wrap"></div>
+      </div>
    
     <div  id="nav-mobile"
       style={{
@@ -46,11 +51,7 @@ const Header = ({ siteTitle, menuLinks}) => (
        
         </h4> 
       
-      <div id="App">
-      <Menu />
 
-      <div id="page-wrap"></div>
-      </div>
     </div>
 
    

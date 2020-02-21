@@ -654,6 +654,9 @@ pre tt:after {
   #nav-mobile {
     display: none;
   }
+  .bm-burger-button{
+    display: none;
+  }
 }
 @media only screen and (max-width: 480px) {
   html {
@@ -671,13 +674,13 @@ pre tt:after {
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: white;
+  background: #02c2b7;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+  height: 18px;
+  width: 18px;
 }
 
 /* Color/shape of close button cross */
