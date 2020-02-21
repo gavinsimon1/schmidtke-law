@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Menu from "./menu"
-import logoWhite from "/Users/gavin/Desktop/schmidtke law/src/images/logo-white.png" 
+import logoWhite from "../src/images/logo-white.png" 
 
 
 
