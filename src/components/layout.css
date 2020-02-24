@@ -721,3 +721,9 @@ pre tt:after {
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 }
+
+#header-logo{
+  padding: 10px;
+  height: 50px;
+  width: 250px;
+}
