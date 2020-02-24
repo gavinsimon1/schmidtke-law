@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import SEO from "../components/seo"
-import Logo from "../src/images/logo-white.png"
+import Logo from "../images/logo-white.png"
 
 //src/images/logo-black.png
 

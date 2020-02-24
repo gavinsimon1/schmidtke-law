@@ -1,4 +1,4 @@
-import Logo from "../src/images/logo-white.png"
+import Logo from "../images/logo-white.png"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
