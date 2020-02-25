@@ -16,7 +16,7 @@ const ServicesPage = () => (
 <hr style={{ textAlign: 'center'}}></hr>
 <h3>Family Court Litigation</h3>
 <div>
-    <p>Divorce</p>
+<p>Divorce</p>
     <p>Post-Divorce</p>
     <p>Custody</p>
     <p>Visitation</p>

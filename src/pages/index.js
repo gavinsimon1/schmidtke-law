@@ -20,8 +20,8 @@ const IndexPage = () => (
     { <div>
      
   <img src={Logo} alt="schmidtke law" />
-    <h2 class="headline">A LAW CORPORATION</h2>
-    <h4 class="headline"><a href="tel:8085994100">(808) 599-4100</a></h4>  
+    <h2 className="headline">A LAW CORPORATION</h2>
+    <h4 className="headline"><a href="tel:8085994100">(808) 599-4100</a></h4>  
     </div> }
    <div style={{ marginBottom: '10rem'}}></div>
 

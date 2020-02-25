@@ -73,7 +73,7 @@ const Header = ({ menuLinks}) => (
                 </li>
                 
               ))}
-                 <a style={{textAlign: 'right', padding:'20px'}} target="_blank" href="https://account.clio.com/login?login_challenge=ac519307e67a4ba79635cb17eeb40094">  Clio Login</a>
+                 <a style={{textAlign: 'right', padding:'20px'}} target="_blank" rel="noopener noreferrer" href="https://account.clio.com/login?login_challenge=ac519307e67a4ba79635cb17eeb40094">  Clio Login</a>
             </ul>
          
           </nav> 
