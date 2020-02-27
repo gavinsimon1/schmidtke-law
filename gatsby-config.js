@@ -4,6 +4,10 @@ module.exports = {
     description: `A Law Corporation`,
     author: `@gatsbyjs`,
     menuLinks:[
+      {
+        name:'About',
+        link:'/about'
+        },
      {
       name:'Contact',
       link:'/contact'

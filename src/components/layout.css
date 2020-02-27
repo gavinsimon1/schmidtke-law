@@ -1,12 +1,48 @@
-html {
+/* html {
   font-family: 'Times New Roman', Times, serif, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 
+} */
+
+@media only screen and (max-width: 600px) {
+  #nav-desktop {
+    display:none;
+  }
 }
+
+@media only screen and (min-width: 600px) {
+  #nav-mobile {
+    display: none;
+  }
+  .bm-burger-button{
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+
 
 body{
   margin: 0; 
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 .sub-page {
@@ -644,25 +680,7 @@ pre tt:after {
 }
 
 
-@media only screen and (max-width: 600px) {
-  #nav-desktop {
-    display:none;
-  }
-}
 
-@media only screen and (min-width: 600px) {
-  #nav-mobile {
-    display: none;
-  }
-  .bm-burger-button{
-    display: none;
-  }
-}
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
-  }
-}
 
 .bm-burger-button {
   position: fixed;
@@ -715,3 +733,4 @@ pre tt:after {
   height: 50px;
   width: 250px;
 }
+

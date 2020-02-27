@@ -39,9 +39,10 @@ const Layout = ({ children }) => {
           padding: `0 5.0875rem 10rem`,
         }}
       >
+       
         <main>{children}</main>
         <footer>
-        All rights reserved © {new Date().getFullYear()}
+       © Schmidtke Law {new Date().getFullYear()}.  All rights reserved 
           {/* , Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a> */}
