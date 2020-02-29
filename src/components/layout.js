@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
       >
        
         <main>{children}</main>
-        <footer>
+        <footer id="footer">
        © Schmidtke Law {new Date().getFullYear()}.  All rights reserved 
           {/* , Built with
           {` `}

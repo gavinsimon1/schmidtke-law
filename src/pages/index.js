@@ -17,11 +17,13 @@ const IndexPage = () => (
   <Layout>
   
     <SEO title="Home" />
-    { <div>
+    { <div id="hero">
      
-  <img src={Logo} alt="schmidtke law" />
-    <h2 className="headline">A Law Corporation</h2>
-    <h4 className="headline"><a href="tel:8085994100">(808) 599-4100</a></h4>  
+  <img id="logo" src={Logo} alt="schmidtke law" />
+    <h2 id="tagline" className="headline">A Law Corporation</h2>
+    <h4 id="phone" className="headline"><a href="tel:8085994100">(808) 599-4100</a></h4>  
+
+
     </div> }
    <div style={{ marginBottom: '20rem'}}></div>
 

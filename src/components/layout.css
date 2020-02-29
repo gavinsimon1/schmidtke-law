@@ -9,6 +9,7 @@
   #nav-desktop {
     display:none;
   }
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -18,11 +19,12 @@
   .bm-burger-button{
     display: none;
   }
+
 }
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
-  }
+  }  
 }
 
 
@@ -32,7 +34,7 @@ body{
 }
 
 html {
-  font-size: 62.5%;
+  font-size: min(max(16px, 4vw), 22px);
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif, sans-serif;
   -ms-text-size-adjust: 100%;
@@ -56,12 +58,38 @@ html {
   background: #313131;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height:100vh;
  
 }
+
+#hero{
+  padding-top: 100px;
+  font-weight: normal;
+
+ 
+  
+}
+
+#tagline{
+  margin-top: -15px;
+}
+
 .headline{
   text-align: center;
   color: white;
- 
+  font-size: 4vw;
+  font-weight: normal;
+  margin-top: -15px;
+
+}
+
+
+
+#footer{
+  /* position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;     */
 }
 
 
@@ -124,6 +152,8 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
+
+
 mark {
   background-color: #313131;
   color: #000;
@@ -728,9 +758,15 @@ pre tt:after {
   background: rgba(0, 0, 0, 0.3);
 }
 
+#logo{
+  margin-bottom: 15px
+}
+
 #header-logo{
+  margin-left: 30px;
   padding: 10px;
   height: 50px;
   width: 250px;
+ 
 }
 
