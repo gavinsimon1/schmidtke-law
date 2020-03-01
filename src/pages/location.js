@@ -17,7 +17,7 @@ const LocationPage = () => (
     <h1  style={{ textAlign: 'center'}}>Location</h1>
     <hr style={{ textAlign: 'center'}}></hr>
 
-    {/* AIzaSyDjC2az3mSyPPxGuocvbRA6XOutf-V1rfI */}
+   
     <a href="https://goo.gl/maps/DHwXtxxVF7teWKsv5" id="map-link"><h4 style={{ textAlign: 'center', color: 'black'}}>Pacific Guardian Center
     Suite 1410, Makai Tower
 733 Bishop Street
