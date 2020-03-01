@@ -14,12 +14,13 @@ const Header = ({ menuLinks}) => (
     
   >
 
+<Menu />
 
-          <div id="App">
-      <Menu />
+<div id="App">
+   
      <Link to="/"><img src={Logo} alt="schmidtke law" id="header-logo" /></Link> 
-      <div id="page-wrap"></div>
-      </div>
+      {/* <div id="page-wrap"></div>*/} 
+      </div> 
    
     <div  id="nav-mobile"
       style={{
@@ -49,10 +50,10 @@ const Header = ({ menuLinks}) => (
   
     
           <nav>
-
+ 
 
             <ul style={{ display: "flex", flex: 1, justifyContent: "flex-end" }}>
-            
+            {/* <Link style={{backgroundColor: "green"}}to="/"><img src={Logo} alt="schmidtke law" id="header-logo" /></Link> */}
             
               {menuLinks.map(link => (
                

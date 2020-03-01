@@ -9,6 +9,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/image"
+import { Map, Marker, GoogleApiWrapper } from "google-maps-react"
 
 const LocationPage = () => (
   <Layout class="sub-page">
@@ -16,12 +17,16 @@ const LocationPage = () => (
     <h1  style={{ textAlign: 'center'}}>Location</h1>
     <hr style={{ textAlign: 'center'}}></hr>
 
-
-
-<h4>Pacific Guardian Center
-Suite 1410, Makai Tower
+    {/* AIzaSyDjC2az3mSyPPxGuocvbRA6XOutf-V1rfI */}
+    <a href="https://goo.gl/maps/DHwXtxxVF7teWKsv5" id="map-link"><h4 style={{ textAlign: 'center', color: 'black'}}>Pacific Guardian Center
+    Suite 1410, Makai Tower
 733 Bishop Street
 Honolulu, HI 96813</h4>
+    </a>
+
+
+
+
 
 <Image/>
 
@@ -39,4 +44,4 @@ Take the parking garage elevator to the lobby and turn right where you will see 
   </Layout>
 )
 
-export default LocationPage
+export default LocationPage 
