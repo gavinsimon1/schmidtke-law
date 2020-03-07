@@ -9,7 +9,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Image from "../components/image"
-import { Map, Marker, GoogleApiWrapper } from "google-maps-react"
+
 
 const LocationPage = () => (
   <Layout class="sub-page">
@@ -17,18 +17,16 @@ const LocationPage = () => (
     <h1  style={{ textAlign: 'center'}}>Location</h1>
     <hr style={{ textAlign: 'center'}}></hr>
 
-   
-    <a href="https://goo.gl/maps/DHwXtxxVF7teWKsv5" id="map-link"><h4 style={{ textAlign: 'center', color: 'black'}}>Pacific Guardian Center
-    Suite 1410, Makai Tower
-733 Bishop Street
-Honolulu, HI 96813</h4>
-    </a>
+    <a href="https://goo.gl/maps/DHwXtxxVF7teWKsv5" id="map-link">
+      
+      <h4 style={{ textAlign: 'center', color: 'black'}}>Pacific Guardian Center
+        Suite 1410, Makai Tower
+    733 Bishop Street
+    Honolulu, HI 96813</h4>
+        </a>
+    
+        <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.1008001554774!2d-157.86536188506258!3d21.307032985848352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006e0b53be92e3%3A0xcb5c0c4d84f6718d!2sPacific%20Guardian%20Center%20Leasing!5e0!3m2!1sen!2sus!4v1583598583506!5m2!1sen!2sus" ></iframe>
 
-
-
-
-
-<Image/>
 
 <hr style={{ textAlign: 'center'}}></hr>
 
@@ -40,6 +38,7 @@ There is visitor parking on the second floor of the parking garage. If there are
 
 Take the parking garage elevator to the lobby and turn right where you will see the “Makai Tower” signage. The elevators are behind the living plant wall. We are in Suite 1410.</p>
 
+<Image />
 <hr style={{ textAlign: 'center'}}></hr>  
   </Layout>
 )
