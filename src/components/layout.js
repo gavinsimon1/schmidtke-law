@@ -34,8 +34,8 @@ const Layout = ({ children }) => {
       <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title}  /> 
       <div id="layout"
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
+          //margin: `0 auto`,
+          //maxWidth: 960,
           padding: `0 5.0875rem 10rem`,
         }}
       >

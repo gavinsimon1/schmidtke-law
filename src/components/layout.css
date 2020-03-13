@@ -6,6 +6,25 @@
 } */
 
 @media only screen and (max-width: 600px) {
+
+
+
+#hero {
+    padding-top: 150px;
+    font-weight: normal;
+   
+  }
+  
+
+
+#logo{
+
+  margin: 0;
+  padding: 0;
+}
+
+
+ 
   #nav-desktop {
     display:none;
   }
@@ -18,11 +37,19 @@
    
     font-size: 15px;
   }
+
+
+
+  
  
 
 }
 
 @media only screen and (min-width: 600px) {
+
+
+
+
   #nav-mobile {
     display: none;
   }
@@ -33,9 +60,22 @@
 
 }
 @media only screen and (max-width: 480px) {
+
   html {
     font-size: 100%;
-  }  
+  } 
+
+  #tagline{
+    font-size: .65rem;
+  }
+ 
+  .headline{
+    text-align: center;
+    font-size: 5px;
+    font-weight: normal;
+  }
+
+
   
 
 }
@@ -63,9 +103,19 @@ html {
 }
 
 #google-map{
- width:600px; 
- height: 450px;  
+  overflow:hidden;
+  height: 100%;
+  width: 100%;
+  
 }
+
+nav{
+  font-family: 'Helvetica'
+}
+/* #google-map{
+  width:600px; 
+  height: 450px;  
+ } */
 
 #App{
   margin-bottom: -50px;
@@ -85,16 +135,22 @@ html {
   min-height:100vh;
 }
 
-#home footer{
-  color: white;
+footer{
+  margin-top: 500px;
+  
+
 }
 
-#hero{
-  padding-top: 100px;
-  font-weight: normal;
-
+#home footer{
+  color: white;
  
-  
+
+}
+
+#hero {
+  padding-top: 150px;
+  font-weight: normal;
+ 
 }
 
 #tagline{
@@ -106,8 +162,7 @@ html {
   color: white;
   font-size: 2.25rem;
   font-weight: normal;
-  margin-top: -15px;
-
+  margin-top: 50px;
 }
 
 
@@ -776,7 +831,10 @@ pre tt:after {
 }
 
 #logo{
-  margin-bottom: 15px
+  margin-bottom: 15px;
+ 
+
+ 
 }
 
 #header-logo{
