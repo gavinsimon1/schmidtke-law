@@ -3,7 +3,7 @@
 
 
 import React from "react"
-import { Link } from "gatsby"
+
 
 
 import Layout from "../components/layout"
@@ -25,7 +25,7 @@ const LocationPage = () => (
     Honolulu, HI 96813</h4>
         </a>
     
-        <iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.1008001554774!2d-157.86536188506258!3d21.307032985848352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006e0b53be92e3%3A0xcb5c0c4d84f6718d!2sPacific%20Guardian%20Center%20Leasing!5e0!3m2!1sen!2sus!4v1583598583506!5m2!1sen!2sus" ></iframe>
+        <iframe title="iframe" id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.1008001554774!2d-157.86536188506258!3d21.307032985848352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c006e0b53be92e3%3A0xcb5c0c4d84f6718d!2sPacific%20Guardian%20Center%20Leasing!5e0!3m2!1sen!2sus!4v1583598583506!5m2!1sen!2sus" ></iframe>
 
 
 <hr style={{ textAlign: 'center'}}></hr>
