@@ -10,7 +10,7 @@ const HoursPage = () => (
   <div  class="sub-page">
   <Layout>
     <SEO title="Office Hours" />
-    <h1  style={{ textAlign: 'center'}}>Office Hours</h1>
+    <h1  style={{ textAlign: 'center', fontFamily: 'Goudy Drop Cap'}}>Office Hours</h1>
 <hr style={{ textAlign: 'center'}}></hr>
    <h3>Office Hours</h3> 
    <h4>8:30 am to 4:30 pm</h4>

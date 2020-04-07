@@ -9,9 +9,8 @@ export default props => {
       </a>
 
       <a className="menu-item" href="/about">
-       About
+        About
       </a>
-
       <a className="menu-item" href="/contact">
         Contact
       </a>

@@ -12,7 +12,7 @@ const ServicesPage = () => (
     <div  class="sub-page">
         <Layout>
     <SEO title="Services" />
-    <h1  style={{ textAlign: 'center'}}>Services</h1>
+    <h1  style={{ textAlign: 'center', fontFamily: 'Goudy Drop Cap'}}>Services</h1>
 <hr style={{ textAlign: 'center'}}></hr>
 <h3>Family Court Litigation</h3>
 <div>

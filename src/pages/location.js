@@ -14,7 +14,7 @@ import Image from "../components/image"
 const LocationPage = () => (
   <Layout class="sub-page">
     <SEO title="Location" />
-    <h1  style={{ textAlign: 'center'}}>Location</h1>
+    <h1  style={{ textAlign: 'center', fontFamily: 'Goudy Drop Cap'}}>Location</h1>
     <hr style={{ textAlign: 'center'}}></hr>
 
     <a href="https://goo.gl/maps/DHwXtxxVF7teWKsv5" id="map-link">

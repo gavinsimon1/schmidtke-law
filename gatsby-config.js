@@ -6,8 +6,9 @@ module.exports = {
     menuLinks:[
       {
         name:'About',
-        link:'/about'
+        link:'/about',
         },
+     
      {
       name:'Contact',
       link:'/contact'
