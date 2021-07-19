@@ -12,7 +12,7 @@
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sharp": "^2.4.3",
     "gatsby-source-filesystem": "^2.1.46",
-    "gatsby-source-wordpress": "^3.1.60",
+    "gatsby-source-wordpress": "^4.0.8",
     "gatsby-transformer-sharp": "^2.3.13",
     "google-maps-react": "^2.0.2",
     "prop-types": "^15.7.2",
